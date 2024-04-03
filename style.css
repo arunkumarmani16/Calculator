@@ -53,7 +53,6 @@ button {
     height: 60px;
     width: 60px;
     margin: 10px;
-    text-size-adjust: 30px;
     border-radius: 50%;
     background: grey;
     color: black;
@@ -77,10 +76,10 @@ button {
     color: red;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
     .calculator {
         width: 100%;
-        margin: auto;
+       
     
         /* height: 500px; */
         padding: 20px;
