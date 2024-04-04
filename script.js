@@ -9,7 +9,6 @@ arr.forEach((button) => {
             if (e.target.innerHTML == '=') {
                 string = eval(string);
                 input.value = string;
-                console.log(string);
             }
             else if (e.target.innerHTML == 'C') {
                 string = '';
